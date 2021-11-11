@@ -29,4 +29,4 @@ if result.multi_hand_landmarks:
           cx,cy=int(lm.x*w),int(lm.y*h)
           lmList.append([id,cx,cy])
       mpDraw.draw_landmarks(img,handlandmark,mpHands.HAND_CONNECTIONS)
-if lmList !=[]:
+if lmList !=[]: 
